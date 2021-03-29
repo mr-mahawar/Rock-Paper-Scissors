@@ -24,7 +24,7 @@ const choices = {
   rock: { name: 'Rock', defeats: ['scissors', 'water baloon'] },
   paper: { name: 'Paper', defeats: ['rock'] },
   scissors: { name: 'Scissors', defeats: ['paper', 'water baloon'] },
-  fire: { name: 'Fire', defeats: ['paper', 'scissors'] },
+  fire: { name: 'Fire', defeats: ['paper', 'scissors', 'rock'] },
   waterBaloon: { name: 'Water Baloon', defeats: ['paper', 'fire'] },
 };
 
