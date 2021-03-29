@@ -126,7 +126,7 @@ function updateScore(playerChoice) {
   }
   else {
     const choice = choices[playerChoice];
-    if (choice.defeats.indexOf(computerChoice) === 0) {
+    if (choice.defeats.indexOf(computerChoice) === -1) {
       resultText.textContent = 'Lost!';
       computerScoreNumber++;
       computerScore.textContent = computerScoreNumber;
