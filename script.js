@@ -21,9 +21,9 @@ const computerWaterBaloon = document.getElementById('computer-water-baloon');
 const allIcons =  document.querySelectorAll('.far');
 
 const choices = {
-  rock: { name: 'Rock', defeats: ['scissors', 'water baloon'] },
+  rock: { name: 'Rock', defeats: ['scissors', 'waterBaloon'] },
   paper: { name: 'Paper', defeats: ['rock'] },
-  scissors: { name: 'Scissors', defeats: ['paper', 'water baloon'] },
+  scissors: { name: 'Scissors', defeats: ['paper', 'waterBaloon'] },
   fire: { name: 'Fire', defeats: ['paper', 'scissors', 'rock'] },
   waterBaloon: { name: 'Water Baloon', defeats: ['paper', 'fire'] },
 };
