@@ -54,7 +54,7 @@ function resetAll() {
   header.style.boxShadow = '0 0 8px rgba(255, 255, 255, 0.5)';
   header.style.color = 'rgb(40, 40, 40)';
   resetSelected();
-  confetti.stop();
+//   confetti.stop();
 }
 
 // Random Computer Choice
@@ -136,7 +136,7 @@ function updateScore(playerChoice) {
       header.style.color = 'white';
     }
     else {
-      confetti.start();
+    //   confetti.start();
       resultText.textContent = 'Won!';
       playerScoreNumber++;
       playerScore.textContent = playerScoreNumber;
@@ -150,7 +150,7 @@ function updateScore(playerChoice) {
 
 // Call functions to process turn
 function checkResult(playerChoice) {
-  confetti.stop();
+//   confetti.stop();
   resetSelected();
   randomComputerChoice();
   displayComputerChoice(computerChoice);
