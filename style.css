@@ -30,6 +30,7 @@ body {
 }
 
 .header {
+	padding: 6px;
   background: white;
   box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
   display: flex;
@@ -59,7 +60,7 @@ h2 {
 .fas {
   font-size: 50px;
   /* margin-right: 40px; */
-  User-select: none;
+  user-select: none;
 }
 
 .icons-container {
@@ -146,7 +147,7 @@ h2 {
 /* Media Query: Large Smartphone (Vertical) */
 @media screen and (max-width: 600px) {
   body {
-  background-image: url(bg-mobile.jpg);
+  	background-image: url(bg-mobile.jpg);
   }
   
   .game-container {
@@ -154,31 +155,51 @@ h2 {
   }
 
   h1 {
-    font-size: 24px;
+    font-size: 20px;
+		margin: 4px 0;
   }
+
+	h2 {
+    font-size: 18px;
+	}
 
   .player-container {
-    margin: 50px 0 25px 25px;
+    margin: 50px 0 25px;
   }
 
+	.far,
+	.fas {
+		font-size: 40px;
+	}
+
   .reset-icon {
+		font-size: 22px;
     margin-top: 25px;
     margin-left: 25px;
   }
+
+	.result-text {
+		font-size: 30px;
+	}
 }
 
 /* Media Query: iPhone (Vertical) */
 @media screen and (max-width: 376px) {
   h1 {
-    font-size: 22px;
+    font-size: 14px;
   }
 
   .player-container {
-    margin: 43px 0 25px 20px;
+    margin: 43px 0 25px;
   }
 
+	.far,
+	.fas {
+		font-size: 34px;
+	}
+
   .reset-icon {
-    margin-top: 15px;
+		font-size: 22px;
   }
 
   .result-container {
